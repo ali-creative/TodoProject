@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+
+.App {
+    background-color: #d3e8f6;
+    height:100%;
+}
+
+.header-section {
+    height: 170px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    height: 25px;
+    width: 250px;
+    margin-right: 10px;
+
+}
+
+button {
+    height: 30px;
+    width: 70px;
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.todo-list {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid gray;
+}
